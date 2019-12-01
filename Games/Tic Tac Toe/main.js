@@ -12,6 +12,8 @@ $(document).ready(function () {
 			} else {
 				$(this).append("O");
 				$(this).css('color', "#e85a4f");
+				var imageUrl = 'Img/gin_small.png';
+				$(this).css('background-image', 'url(' + imageUrl + ')');
 			}
 			move++;
 			if (checkForWinner() != -1 && checkForWinner() != "") {
