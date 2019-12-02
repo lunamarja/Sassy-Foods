@@ -22,11 +22,14 @@ table tr td {
 	border: 1px solid rgba(255,255,255,.05);
 	font-size: 30px;
 	text-align: center;
+	background-position: center;
+	background-size: cover;
 }
 
 table tr td:hover {
-	background: #2c3531;
+	/*background: #2c3531;*/
 	cursor: pointer;
+
 }
 .winner {
 	width: 240px;
