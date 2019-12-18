@@ -7,11 +7,11 @@ $(document).ready(function () {
 		if ($(this).text() == "" && play) {
 			if ((move % 2) == 1) {
 				$(this).append("X");
-				$(this).css('color', "#61892f");
+				//$(this).css('color', "#61892f");
 				
 			} else {
 				$(this).append("O");
-				$(this).css('color', "#e85a4f");
+				//$(this).css('color', "#e85a4f");
 				var imageUrl = 'Img/gin_small.png';
 				$(this).css('background-image', 'url(' + imageUrl + ')');
 			}

@@ -21,6 +21,7 @@ table tr td {
 	height: 80px;
 	border: 1px solid rgba(255,255,255,.05);
 	font-size: 30px;
+	color: transparent;
 	text-align: center;
 	background-position: center;
 	background-size: cover;
